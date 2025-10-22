@@ -1,0 +1,223 @@
+body {
+    background-image: url('./bg-pattern-top-mobile.svg');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: League Spartan;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding: 0;
+
+}    
+
+
+.wrapper{
+    max-width: 100%;
+}
+
+
+
+.main{
+    margin-top: 70px;
+    margin-left: 2px;
+    font-family: League Spartan;
+    color: hsl(300, 43%, 22%);
+
+}
+
+
+.star{
+    background-color:  hsl(300, 32%, 94%);
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    flex-direction: row;
+    
+    
+}
+
+
+.ratings{
+    margin-left: 445px;
+    flex-direction: column;
+}
+
+.guru{
+    background-color:  hsl(300, 32%, 94%);
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    flex-direction: row;
+}
+
+.best{
+   background-color:  hsl(300, 32%, 94%);
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+/* 
+body {
+  background-image: url('./bg-pattern-top-mobile.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: 'League Spartan', sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: hsl(300, 43%, 22%);
+}
+
+/* Wrapper */
+/* .wrapper {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Main heading section */
+/* .main {
+  text-align: center;
+} */
+
+/* .main h1 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.main span {
+  color: hsl(333, 80%, 67%);
+} */
+
+/* .par {
+  font-size: 1rem;
+  color: hsl(303, 10%, 53%);
+  line-height: 1.5rem;
+} */
+
+/* Ratings section */
+/* .ratings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+} */
+
+/* .star, .guru, .best {
+  background-color: hsl(300, 32%, 94%);
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 350px;
+} */ 
+
+/* Customers section */
+/* .customers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; */
+/* } */
+
+/* .customers > div {
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(240, 75%, 98%);
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 280px;
+  box-sizing: border-box;
+}
+
+.customers img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.customers h4, .customers h5 {
+  margin: 0;
+}
+
+.customers h4 {
+  color: white;
+  font-weight: 500;
+} */
+
+/* .customers h5 {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+  font-size: 14px;
+} */
+
+/* Make layout responsive */
+/* @media (max-width: 768px) {
+  .wrapper {
+    padding: 10px;
+  }
+
+  .main h1 {
+    font-size: 1.5rem;
+  }
+
+  .star, .guru, .best {
+    max-width: 90%;
+  }
+
+  .customers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customers > div {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main h1 {
+    font-size: 1.3rem;
+  }
+
+  .par {
+    font-size: 0.9rem;
+  }
+
+  .star, .guru, .best {
+    padding: 8px;
+  }
+} */ 
